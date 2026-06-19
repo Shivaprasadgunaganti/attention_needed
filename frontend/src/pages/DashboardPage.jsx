@@ -11,9 +11,43 @@
 import StatsCard from "../components/common/StatsCard";
 import OpportunityTable from "../components/common/OpportunityTable";
 
-import { mockOpportunities } from "../data/mockOpportunities";
+// import { mockOpportunities } from "../data/mockOpportunities";
+
+import { useEffect, useState } from "react";
+import { getOpportunities } from "../services/opportunityService";
 
 const DashboardPage = () => {
+  const [opportunities, setOpportunities] = useState([]);
+const [loading, setLoading] = useState(true);
+
+useEffect(() => {
+  loadOpportunities();
+}, []);
+
+const loadOpportunities = async () => {
+  try {
+    const data = await getOpportunities();
+
+    const formatted = data.map((job) => ({
+      id: job.id,
+      title: job.title,
+      company: job.company,
+      matchScore: "--",
+      experience: "--",
+      easyApply: job.easy_apply,
+      postedMinutesAgo: "--",
+      priority: "HIGH",
+      status: job.status,
+    }));
+
+    setOpportunities(formatted);
+  } catch (error) {
+    console.error(error);
+  } finally {
+    setLoading(false);
+  }
+};
+
   return (
     <div>
 
@@ -24,10 +58,14 @@ const DashboardPage = () => {
       <div className="row g-3 mb-4">
 
         <div className="col-md-3">
-          <StatsCard
+          {/* <StatsCard
             title="Immediate Opportunities"
             value="3"
-          />
+          /> */}
+          <StatsCard
+  title="Immediate Opportunities"
+  value={opportunities.length}
+/>
         </div>
 
         <div className="col-md-3">
@@ -60,9 +98,12 @@ const DashboardPage = () => {
             🔥 Immediate Attention
           </h4>
 
-          <OpportunityTable
+          {/* <OpportunityTable
             opportunities={mockOpportunities}
-          />
+          /> */}
+          <OpportunityTable
+  opportunities={opportunities}
+/>
 
         </div>
       </div>
