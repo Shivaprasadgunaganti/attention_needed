@@ -1,0 +1,29 @@
+.sidebar {
+  width: var(--sidebar-width);
+  background: white;
+  border-right: 1px solid var(--border-color);
+
+  padding: 20px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.sidebar-logo {
+  margin-bottom: 30px;
+}
+
+.sidebar-link {
+  display: block;
+  padding: 12px;
+  text-decoration: none;
+  color: var(--text-primary);
+  border-radius: 8px;
+  margin-bottom: 6px;
+}
+
+.sidebar-link.active {
+  background: var(--primary-color);
+  color: white;
+}

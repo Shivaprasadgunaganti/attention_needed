@@ -1,0 +1,12 @@
+.topbar {
+  height: 70px;
+
+  background: white;
+
+  border-bottom: 1px solid var(--border-color);
+
+  display: flex;
+  align-items: center;
+
+  padding: 0 24px;
+}
