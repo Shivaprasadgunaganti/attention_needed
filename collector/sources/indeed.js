@@ -1,19 +1,53 @@
 const { chromium } = require("playwright");
 
 async function collectIndeedJobs() {
+  // const browser = await chromium.launch({
+  //   headless: false,
   const browser = await chromium.launch({
-    headless: false,
+    headless: true,
   });
 
-  const page = await browser.newPage();
+  // const page = await browser.newPage();
 
-  await page.goto("https://in.indeed.com/jobs?q=React+Developer&l=Hyderabad&fromage=1&radius=25"
+  const context = await browser.newContext({
+  userAgent:
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+  viewport: {
+    width: 1366,
+    height: 768,
+  },
+  locale: "en-US",
+  timezoneId: "Asia/Kolkata",
+});
+
+const page = await context.newPage();
+
+await page.addInitScript(() => {
+  Object.defineProperty(navigator, "webdriver", {
+    get: () => undefined,
+  });
+});
+
+  await page.goto(
+    "https://in.indeed.com/jobs?q=React+Developer&l=Hyderabad&fromage=1&radius=25",
     // "https://in.indeed.com/react-developer-jobs"
-    , {
-    waitUntil: "domcontentloaded",
-  });
+    {
+      waitUntil: "domcontentloaded",
+    },
+  );
 
   await page.waitForTimeout(5000);
+
+  console.log("Page Title:", await page.title());
+
+  const content = await page.content();
+  console.log("Page Length:", content.length);
+
+  await page.screenshot({
+    path: "debug.png",
+  });
+
+  console.log("Screenshot saved");
 
   const jobs = await page.evaluate(() => {
     const cards = document.querySelectorAll(".job_seen_beacon");
@@ -23,22 +57,20 @@ async function collectIndeedJobs() {
         card.querySelector(".jobTitle span")?.innerText?.trim() || "";
 
       const company =
-        card.querySelector('[data-testid="company-name"]')
-          ?.innerText?.trim() || "";
+        card.querySelector('[data-testid="company-name"]')?.innerText?.trim() ||
+        "";
 
       const location =
-        card.querySelector('[data-testid="text-location"]')
+        card
+          .querySelector('[data-testid="text-location"]')
           ?.innerText?.trim() || "";
 
       const easyApply = card.innerText.includes("Easily apply");
 
       const link =
-        card.querySelector(".jobTitle a")
-          ?.getAttribute("href") || "";
+        card.querySelector(".jobTitle a")?.getAttribute("href") || "";
 
-      const url = link
-        ? `https://in.indeed.com${link}`
-        : "";
+      const url = link ? `https://in.indeed.com${link}` : "";
 
       return {
         title,
