@@ -7,7 +7,7 @@
 //   process.env.SUPABASE_SERVICE_ROLE_KEY
 // );
 
-// module.exports = supabase;
+//  module.exports = supabase;
 
 require("dotenv").config();
 
