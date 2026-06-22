@@ -25,13 +25,12 @@ jobs:
           check-latest: true
 
       - name: Check Node Version
-  run: |
-    node -v
-    npm -v    
+        run: |
+          node -v
+          npm -v
 
       - name: Install Dependencies
         run: npm install
-
 
       - name: Install Playwright Browsers
         run: npx playwright install chromium
@@ -42,6 +41,6 @@ jobs:
         #   SUPABASE_SERVICE_KEY: ${{ secrets.SUPABASE_SERVICE_KEY }}
 
         env:
-             SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
-             SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
         run: node index.js
