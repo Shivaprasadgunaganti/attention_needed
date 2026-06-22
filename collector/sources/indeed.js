@@ -84,6 +84,12 @@ await page.addInitScript(() => {
 
   await browser.close();
 
+  console.log("Jobs Found:", jobs.length);
+
+jobs.forEach((job, index) => {
+  console.log(index + 1, job.title);
+});
+
   return jobs;
 }
 
