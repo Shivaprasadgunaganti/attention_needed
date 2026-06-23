@@ -1,0 +1,643 @@
+PS E:\attention-needed\collector> node .\index.js
+◇ injected env (2) from .env // tip: ⌘ suppress logs { quiet: true }
+Page Title: 6 React Developer Jobs and Vacancies in Hyderabad, Telangana - 23 June 2026 | Indeed
+Page Length: 1236777
+Screenshot saved
+Jobs Found: 7
+1 Front End Developer
+2 Developer III
+3 Developer III
+4 Frontend Vanguard – Angular & Next.js
+5 Lead AI or ML Engineer - Python, Typescript, React, Agentic Model
+6 Salesforce Commerce Cloud and React Senior Developer
+7 Senior Full Stack Java Developer - React.js
+Final URL: https://www.naukri.com/react-developer-jobs-in-hyderabad-secunderabad?k=react%20developer&l=hyderabad%20secunderabad&nignbevent_src=jobsearchDeskGNB&experience=1&functionAreaIdGid=5&functionAreaIdGid=8&cityTypeGid=17&ugTypeGid=12
+Page Title: React Developer Jobs In Hyderabad Secunderabad - 24 React Developer Job Vacancies In Hyderabad Secunderabad - Naukri.com
+Cards Visible Before Scroll: 20
+Cards Visible After Scroll: 20
+Extracted Jobs: 20
+Indeed Jobs: 7
+Naukri Jobs: 20
+Total Jobs: 27
+Jobs Found: 27
+[
+  {
+    source: 'indeed',
+    title: 'Front End Developer',
+    company: 'Aayronix Hub',
+    location: 'Hyderabad, Telangana',
+    easyApply: true,
+    url: 'https://in.indeed.com/rc/clk?jk=eb067cee8047d93b&bb=Wzjo5lfCvE1sELpawWzUJN0M2CyEbWG--m2TZ7SaGhwX9aOoCyD7BOT7-JbvgRhI2ZzZadcR0O-IseMHtZdUitDZVOekbIAm788CDwRqZZKaAy6GfvV0hFtE0kSwKP6j&xkcb=SoCd67M3i5ibbCz7oB0LbzkdCdPP&fccid=dd616958bd9ddc12&cmp=Aayronix-Hub&ti=Front+End+Developer&vjs=3'
+  },
+  {
+    source: 'indeed',
+    title: 'Developer III',
+    company: 'RealPage, Inc.',
+    location: 'Telangana',
+    easyApply: false,
+    url: 'https://in.indeed.com/rc/clk?jk=648e168d8e9165ee&bb=Wzjo5lfCvE1sELpawWzUJIYmjspi35q21azYl9OlJjcuLMkkVr2N4B3DNN9T9j0rS4_edkzxnTKx8nHcWwsulqPlJNt_C1qxxicFDhYbWizpTlZBmqR37UzPdhwKqk70&xkcb=SoAp67M3i5ibbCz7oB0KbzkdCdPP&fccid=124d2eb87a9084a3&vjs=3'
+  },
+  {
+    source: 'indeed',
+    title: 'Developer III',
+    company: 'RealPage, Inc.',
+    location: 'Telangana',
+    easyApply: false,
+    url: 'https://in.indeed.com/viewjob?jk=890abcdef0123456'
+  },
+  {
+    source: 'indeed',
+    title: 'Frontend Vanguard – Angular & Next.js',
+    company: 'Revalsys Technologies',
+    location: 'Hyderabad, Telangana',
+    easyApply: true,
+    url: 'https://in.indeed.com/rc/clk?jk=6916bfd9f3a7fa32&bb=Wzjo5lfCvE1sELpawWzUJPXvgoYIQoT87HFKq9Kj0rRXPwkf-vJW-zfHCwO2v3kK1kJAi91GSI3aVT3fh2DWs1Qx2gfnlBzNoRktmNs7H1NTrhZCUg2DVDqwnUD9HA8E&xkcb=SoC067M3i5ibbCz7oB0JbzkdCdPP&fccid=74b5dd961f1cdbd3&cmp=REVALSYS-TECHNOLOGIES&ti=Front+End+Associate&vjs=3'
+  },
+  {
+    source: 'indeed',
+    title: 'Lead AI or ML Engineer - Python, Typescript, React, Agentic Model',
+    company: 'Optum',
+    location: 'Hyderabad, Telangana',
+    easyApply: false,
+    url: 'https://in.indeed.com/rc/clk?jk=1943935bf36021e5&bb=Wzjo5lfCvE1sELpawWzUJACG5rTSxTvETPBxdAR755Xo-Kffa0iSBmz-DXSOltrIbkPjaowPEJE-X6cinblB8CYnre14Zg1yDTZK5LQRyJQ0EDJDWlDq0MkmHk8vHsui&xkcb=SoAA67M3i5ibbCz7oB0IbzkdCdPP&fccid=3c38342724c75954&vjs=3'
+  },
+  {
+    source: 'indeed',
+    title: 'Salesforce Commerce Cloud and React Senior Developer',
+    company: 'NTT Ltd',
+    location: 'Hyderabad, Telangana',
+    easyApply: false,
+    url: 'https://in.indeed.com/rc/clk?jk=df599029f379b0f5&bb=Wzjo5lfCvE1sELpawWzUJG22mXJ8-3miTa4zsB_EExLGL09-GqUvDg49n4nCQlGzKqDYJSn0Dsm4VRG7vc2_ZXBmcKQoEd_uIYyA3QccPFeZKZLqlR9UgKBDi-WXArx7&xkcb=SoCO67M3i5ibbCz7oB0PbzkdCdPP&fccid=91444a28cb181211&vjs=3'
+  },
+  {
+    source: 'indeed',
+    title: 'Senior Full Stack Java Developer - React.js',
+    company: 'HCLTech',
+    location: 'Hyderabad, Telangana',
+    easyApply: false,
+    url: 'https://in.indeed.com/rc/clk?jk=5baafc966396fd8a&bb=Wzjo5lfCvE1sELpawWzUJBtodEnLaki0IMoSGSCo0dB4FalwAjs5k0HK0bP1LXl8bDxvaMat5Iod0hvw81UbUVy58O9eE6d705L4ptHUj_oTyKZzL7viAw5mqh2orKON&xkcb=SoA667M3i5ibbCz7oB0ObzkdCdPP&fccid=92a79710d9899fa9&vjs=3'
+  },
+  {
+    source: 'naukri',
+    title: 'AI / Full Stack Intern',
+    company: 'Health Data Max',
+    location: 'Hybrid - Hyderabad',
+    experience: '0-3 Yrs',
+    posted: '3 weeks ago',
+    url: 'https://www.naukri.com/job-listings-ai-full-stack-intern-health-data-max-hyderabad-0-to-3-years-290526014309'
+  },
+  {
+    source: 'naukri',
+    title: 'Software Development Engineer SDE I',
+    company: 'Apidel Technologies',
+    location: 'Hyderabad',
+    experience: '1-4 Yrs',
+    posted: '1 week ago',
+    url: 'https://www.naukri.com/job-listings-software-development-engineer-sde-i-apidel-technologies-hyderabad-1-to-4-years-150626019459'
+  },
+  {
+    source: 'naukri',
+    title: 'UI/UX Post:Software Developer - Intern (UI/UX Developer)',
+    company: 'Castus Info Solutions',
+    location: 'Hyderabad',
+    experience: '',
+    posted: 'Starts in 1-3 months',
+    url: 'https://www.naukri.com/job-listings-ui-ux-post-software-developer-intern-ui-ux-developer-castusinfosolutions-pvt-ltd-hyderabad-1-to-2-years-291025502021'
+  },
+  {
+    source: 'naukri',
+    title: 'Software Developer - Intern (React Js Developer)',
+    company: 'Castus Info Solutions',
+    location: 'Hyderabad',
+    experience: '0-1 Yrs',
+    posted: '3+ weeks ago',
+    url: 'https://www.naukri.com/job-listings-software-developer-intern-react-js-developer-castusinfosolutions-pvt-ltd-hyderabad-0-to-1-years-301025505911'
+  },
+  {
+    source: 'naukri',
+    title: 'Front End Developer',
+    company: 'Ask Ainstein',
+    location: 'Remote',
+    experience: '1-6 Yrs',
+    posted: '2 weeks ago',
+    url: 'https://www.naukri.com/job-listings-front-end-developer-ask-ainstein-hyderabad-1-to-6-years-020626022899'
+  },
+  {
+    source: 'naukri',
+    title: 'Front- end Developer',
+    company: 'Blueberry Digital Labs',
+    location: 'Hyderabad',
+    experience: '1-4 Yrs',
+    posted: '3+ weeks ago',
+    url: 'https://www.naukri.com/job-listings-front-end-developer-blueberry-labs-hyderabad-1-to-4-years-220716500516'
+  },
+  {
+    source: 'naukri',
+    title: 'Full Stack Developer (React + Node.js + MySQL)',
+    company: 'Dwison Advisory Llp',
+    location: 'Hybrid - Hyderabad',
+    experience: '0-3 Yrs',
+    posted: '3 days ago',
+    url: 'https://www.naukri.com/job-listings-full-stack-developer-react-node-js-mysql-dwison-advisory-llp-hyderabad-0-to-3-years-200626011492'
+  },
+  {
+    source: 'naukri',
+    title: 'Php Developer',
+    company: 'Cmdx Nextgen',
+    location: 'Hybrid - Hyderabad',
+    experience: '0-2 Yrs',
+    posted: '5 days ago',
+    url: 'https://www.naukri.com/job-listings-php-developer-cmdx-nextgen-hyderabad-0-to-2-years-170626027023'
+  },
+  {
+    source: 'naukri',
+    title: 'Software Development Engineer',
+    company: 'Accenture',
+    location: 'Hyderabad',
+    experience: '1-4 Yrs',
+    posted: '2 weeks ago',
+    url: 'https://www.naukri.com/job-listings-software-development-engineer-accenture-solutions-pvt-ltd-hyderabad-1-to-4-years-080626921979'
+  },
+  {
+    source: 'naukri',
+    title: 'Software Development Engineer',
+    company: 'Accenture',
+    location: 'Hyderabad',
+    experience: '1-4 Yrs',
+    posted: '2 weeks ago',
+    url: 'https://www.naukri.com/job-listings-software-development-engineer-accenture-solutions-pvt-ltd-hyderabad-1-to-4-years-080626924698'
+  },
+  {
+    source: 'naukri',
+    title: 'Software Development Engineer',
+    company: 'Accenture',
+    location: 'Hyderabad',
+    experience: '1-4 Yrs',
+    posted: '1 week ago',
+    url: 'https://www.naukri.com/job-listings-software-development-engineer-accenture-solutions-pvt-ltd-hyderabad-1-to-4-years-150626930052'
+  },
+  {
+    source: 'naukri',
+    title: 'Android Devleoper',
+    company: 'iPrism Technologies',
+    location: 'Hyderabad',
+    experience: '0-5 Yrs',
+    posted: '3+ weeks ago',
+    url: 'https://www.naukri.com/job-listings-android-devleoper-iprism-technologies-hyderabad-0-to-5-years-120619500080'
+  },
+  {
+    source: 'naukri',
+    title: 'Hiring Full Stack DOT NET Developer - BDO RISE Bangalore / Hyderabad',
+    company: 'BDO Rise',
+    location: 'Hybrid - Hyderabad, Bengaluru',
+    experience: '1-4 Yrs',
+    posted: '4 days ago',
+    url: 'https://www.naukri.com/job-listings-hiring-full-stack-dot-net-developer-bdo-rise-bangalore-hyderabad-bdo-rise-pvt-ltd-hyderabad-bengaluru-1-to-4-years-180626023379'
+  },
+  {
+    source: 'naukri',
+    title: 'Software Development Engineer',
+    company: 'Accenture',
+    location: 'Hyderabad',
+    experience: '1-4 Yrs',
+    posted: '3+ weeks ago',
+    url: 'https://www.naukri.com/job-listings-software-development-engineer-accenture-solutions-pvt-ltd-hyderabad-1-to-4-years-250526925858'
+  },
+  {
+    source: 'naukri',
+    title: 'Software Development Engineer Trainee (Full Stack)',
+    company: 'Zenwork Digital',
+    location: 'Hyderabad',
+    experience: '0-2 Yrs',
+    posted: '3 weeks ago',
+    url: 'https://www.naukri.com/job-listings-software-development-engineer-trainee-full-stack-zenwork-digital-hyderabad-0-to-2-years-290526007520'
+  },
+  {
+    source: 'naukri',
+    title: 'Software Developer',
+    company: 'Leap Robots',
+    location: 'Hyderabad',
+    experience: '0-1 Yrs',
+    posted: '3+ weeks ago',
+    url: 'https://www.naukri.com/job-listings-software-developer-leap-robots-hyderabad-0-to-1-years-230526007755'
+  },
+  {
+    source: 'naukri',
+    title: 'Software Engineer',
+    company: 'Soc Software',
+    location: 'Hyderabad',
+    experience: '1-3 Yrs',
+    posted: '3 weeks ago',
+    url: 'https://www.naukri.com/job-listings-software-engineer-soc-software-hyderabad-1-to-3-years-260526027418'
+  },
+  {
+    source: 'naukri',
+    title: 'MERN Stack Developer (Intern)',
+    company: 'Adengage',
+    location: 'Hyderabad, Mumbai, Mumbai, Hyderabad',
+    experience: '0-1 Yrs',
+    posted: '3+ weeks ago',
+    url: 'https://www.naukri.com/job-listings-mern-stack-developer-intern-adengage-mumbai-hyderabad-mumbai-hyderabad-0-to-1-years-250526926825'
+  },
+  {
+    source: 'naukri',
+    title: 'Java Script Developer',
+    company: 'Data Eminence',
+    location: 'Hyderabad, Pune, Bengaluru',
+    experience: '0-2 Yrs',
+    posted: '3+ weeks ago',
+    url: 'https://www.naukri.com/job-listings-java-script-developer-data-eminence-hyderabad-pune-bengaluru-0-to-2-years-220526030068'
+  },
+  {
+    source: 'naukri',
+    title: 'Python Developer',
+    company: 'Arshil Llc',
+    location: 'Hyderabad',
+    experience: '1-5 Yrs',
+    posted: '3+ weeks ago',
+    url: 'https://www.naukri.com/job-listings-python-developer-arshil-hyderabad-1-to-5-years-250526929581'
+  }
+]
+Opportunities:
+[
+  {
+    source: 'indeed',
+    title: 'Front End Developer',
+    company: 'Aayronix Hub',
+    location: 'Hyderabad, Telangana',
+    salary: null,
+    easy_apply: true,
+    job_url: 'https://in.indeed.com/rc/clk?jk=eb067cee8047d93b&bb=Wzjo5lfCvE1sELpawWzUJN0M2CyEbWG--m2TZ7SaGhwX9aOoCyD7BOT7-JbvgRhI2ZzZadcR0O-IseMHtZdUitDZVOekbIAm788CDwRqZZKaAy6GfvV0hFtE0kSwKP6j&xkcb=SoCd67M3i5ibbCz7oB0LbzkdCdPP&fccid=dd616958bd9ddc12&cmp=Aayronix-Hub&ti=Front+End+Developer&vjs=3',
+    job_key: 'eb067cee8047d93b',
+    freshness_bucket: '24H',
+    score: 95,
+    match_percentage: 95,
+    is_remote: false
+  },
+  {
+    source: 'indeed',
+    title: 'Developer III',
+    company: 'RealPage, Inc.',
+    location: 'Telangana',
+    salary: null,
+    easy_apply: false,
+    job_url: 'https://in.indeed.com/rc/clk?jk=648e168d8e9165ee&bb=Wzjo5lfCvE1sELpawWzUJIYmjspi35q21azYl9OlJjcuLMkkVr2N4B3DNN9T9j0rS4_edkzxnTKx8nHcWwsulqPlJNt_C1qxxicFDhYbWizpTlZBmqR37UzPdhwKqk70&xkcb=SoAp67M3i5ibbCz7oB0KbzkdCdPP&fccid=124d2eb87a9084a3&vjs=3',
+    job_key: '648e168d8e9165ee',
+    freshness_bucket: '24H',
+    score: 0,
+    match_percentage: 0,
+    is_remote: false
+  },
+  {
+    source: 'indeed',
+    title: 'Developer III',
+    company: 'RealPage, Inc.',
+    location: 'Telangana',
+    salary: null,
+    easy_apply: false,
+    job_url: 'https://in.indeed.com/viewjob?jk=890abcdef0123456',
+    job_key: '890abcdef0123456',
+    freshness_bucket: '24H',
+    score: 0,
+    match_percentage: 0,
+    is_remote: false
+  },
+  {
+    source: 'indeed',
+    title: 'Frontend Vanguard – Angular & Next.js',
+    company: 'Revalsys Technologies',
+    location: 'Hyderabad, Telangana',
+    salary: null,
+    easy_apply: true,
+    job_url: 'https://in.indeed.com/rc/clk?jk=6916bfd9f3a7fa32&bb=Wzjo5lfCvE1sELpawWzUJPXvgoYIQoT87HFKq9Kj0rRXPwkf-vJW-zfHCwO2v3kK1kJAi91GSI3aVT3fh2DWs1Qx2gfnlBzNoRktmNs7H1NTrhZCUg2DVDqwnUD9HA8E&xkcb=SoC067M3i5ibbCz7oB0JbzkdCdPP&fccid=74b5dd961f1cdbd3&cmp=REVALSYS-TECHNOLOGIES&ti=Front+End+Associate&vjs=3',
+    job_key: '6916bfd9f3a7fa32',
+    freshness_bucket: '24H',
+    score: 95,
+    match_percentage: 95,
+    is_remote: false
+  },
+  {
+    source: 'indeed',
+    title: 'Lead AI or ML Engineer - Python, Typescript, React, Agentic Model',
+    company: 'Optum',
+    location: 'Hyderabad, Telangana',
+    salary: null,
+    easy_apply: false,
+    job_url: 'https://in.indeed.com/rc/clk?jk=1943935bf36021e5&bb=Wzjo5lfCvE1sELpawWzUJACG5rTSxTvETPBxdAR755Xo-Kffa0iSBmz-DXSOltrIbkPjaowPEJE-X6cinblB8CYnre14Zg1yDTZK5LQRyJQ0EDJDWlDq0MkmHk8vHsui&xkcb=SoAA67M3i5ibbCz7oB0IbzkdCdPP&fccid=3c38342724c75954&vjs=3',
+    job_key: '1943935bf36021e5',
+    freshness_bucket: '24H',
+    score: 0,
+    match_percentage: 0,
+    is_remote: false
+  },
+  {
+    source: 'indeed',
+    title: 'Salesforce Commerce Cloud and React Senior Developer',
+    company: 'NTT Ltd',
+    location: 'Hyderabad, Telangana',
+    salary: null,
+    easy_apply: false,
+    job_url: 'https://in.indeed.com/rc/clk?jk=df599029f379b0f5&bb=Wzjo5lfCvE1sELpawWzUJG22mXJ8-3miTa4zsB_EExLGL09-GqUvDg49n4nCQlGzKqDYJSn0Dsm4VRG7vc2_ZXBmcKQoEd_uIYyA3QccPFeZKZLqlR9UgKBDi-WXArx7&xkcb=SoCO67M3i5ibbCz7oB0PbzkdCdPP&fccid=91444a28cb181211&vjs=3',
+    job_key: 'df599029f379b0f5',
+    freshness_bucket: '24H',
+    score: 0,
+    match_percentage: 0,
+    is_remote: false
+  },
+  {
+    source: 'indeed',
+    title: 'Senior Full Stack Java Developer - React.js',
+    company: 'HCLTech',
+    location: 'Hyderabad, Telangana',
+    salary: null,
+    easy_apply: false,
+    job_url: 'https://in.indeed.com/rc/clk?jk=5baafc966396fd8a&bb=Wzjo5lfCvE1sELpawWzUJBtodEnLaki0IMoSGSCo0dB4FalwAjs5k0HK0bP1LXl8bDxvaMat5Iod0hvw81UbUVy58O9eE6d705L4ptHUj_oTyKZzL7viAw5mqh2orKON&xkcb=SoA667M3i5ibbCz7oB0ObzkdCdPP&fccid=92a79710d9899fa9&vjs=3',
+    job_key: '5baafc966396fd8a',
+    freshness_bucket: '24H',
+    score: 50,
+    match_percentage: 50,
+    is_remote: false
+  },
+  {
+    source: 'naukri',
+    title: 'AI / Full Stack Intern',
+    company: 'Health Data Max',
+    location: 'Hybrid - Hyderabad',
+    salary: null,
+    easy_apply: undefined,
+    job_url: 'https://www.naukri.com/job-listings-ai-full-stack-intern-health-data-max-hyderabad-0-to-3-years-290526014309',
+    job_key: '290526014309',
+    freshness_bucket: '24H',
+    score: 0,
+    match_percentage: 0,
+    is_remote: false
+  },
+  {
+    source: 'naukri',
+    title: 'Software Development Engineer SDE I',
+    company: 'Apidel Technologies',
+    location: 'Hyderabad',
+    salary: null,
+    easy_apply: undefined,
+    job_url: 'https://www.naukri.com/job-listings-software-development-engineer-sde-i-apidel-technologies-hyderabad-1-to-4-years-150626019459',
+    job_key: '150626019459',
+    freshness_bucket: '24H',
+    score: 0,
+    match_percentage: 0,
+    is_remote: false
+  },
+  {
+    source: 'naukri',
+    title: 'UI/UX Post:Software Developer - Intern (UI/UX Developer)',
+    company: 'Castus Info Solutions',
+    location: 'Hyderabad',
+    salary: null,
+    easy_apply: undefined,
+    job_url: 'https://www.naukri.com/job-listings-ui-ux-post-software-developer-intern-ui-ux-developer-castusinfosolutions-pvt-ltd-hyderabad-1-to-2-years-291025502021',
+    job_key: '291025502021',
+    freshness_bucket: '24H',
+    score: 0,
+    match_percentage: 0,
+    is_remote: false
+  },
+  {
+    source: 'naukri',
+    title: 'Software Developer - Intern (React Js Developer)',
+    company: 'Castus Info Solutions',
+    location: 'Hyderabad',
+    salary: null,
+    easy_apply: undefined,
+    job_url: 'https://www.naukri.com/job-listings-software-developer-intern-react-js-developer-castusinfosolutions-pvt-ltd-hyderabad-0-to-1-years-301025505911',
+    job_key: '301025505911',
+    freshness_bucket: '24H',
+    score: 0,
+    match_percentage: 0,
+    is_remote: false
+  },
+  {
+    source: 'naukri',
+    title: 'Front End Developer',
+    company: 'Ask Ainstein',
+    location: 'Remote',
+    salary: null,
+    easy_apply: undefined,
+    job_url: 'https://www.naukri.com/job-listings-front-end-developer-ask-ainstein-hyderabad-1-to-6-years-020626022899',
+    job_key: '020626022899',
+    freshness_bucket: '24H',
+    score: 95,
+    match_percentage: 95,
+    is_remote: true
+  },
+  {
+    source: 'naukri',
+    title: 'Front- end Developer',
+    company: 'Blueberry Digital Labs',
+    location: 'Hyderabad',
+    salary: null,
+    easy_apply: undefined,
+    job_url: 'https://www.naukri.com/job-listings-front-end-developer-blueberry-labs-hyderabad-1-to-4-years-220716500516',
+    job_key: '220716500516',
+    freshness_bucket: '24H',
+    score: 0,
+    match_percentage: 0,
+    is_remote: false
+  },
+  {
+    source: 'naukri',
+    title: 'Full Stack Developer (React + Node.js + MySQL)',
+    company: 'Dwison Advisory Llp',
+    location: 'Hybrid - Hyderabad',
+    salary: null,
+    easy_apply: undefined,
+    job_url: 'https://www.naukri.com/job-listings-full-stack-developer-react-node-js-mysql-dwison-advisory-llp-hyderabad-0-to-3-years-200626011492',
+    job_key: '200626011492',
+    freshness_bucket: '24H',
+    score: 80,
+    match_percentage: 80,
+    is_remote: false
+  },
+  {
+    source: 'naukri',
+    title: 'Php Developer',
+    company: 'Cmdx Nextgen',
+    location: 'Hybrid - Hyderabad',
+    salary: null,
+    easy_apply: undefined,
+    job_url: 'https://www.naukri.com/job-listings-php-developer-cmdx-nextgen-hyderabad-0-to-2-years-170626027023',
+    job_key: '170626027023',
+    freshness_bucket: '24H',
+    score: 0,
+    match_percentage: 0,
+    is_remote: false
+  },
+  {
+    source: 'naukri',
+    title: 'Software Development Engineer',
+    company: 'Accenture',
+    location: 'Hyderabad',
+    salary: null,
+    easy_apply: undefined,
+    job_url: 'https://www.naukri.com/job-listings-software-development-engineer-accenture-solutions-pvt-ltd-hyderabad-1-to-4-years-080626921979',
+    job_key: '080626921979',
+    freshness_bucket: '24H',
+    score: 0,
+    match_percentage: 0,
+    is_remote: false
+  },
+  {
+    source: 'naukri',
+    title: 'Software Development Engineer',
+    company: 'Accenture',
+    location: 'Hyderabad',
+    salary: null,
+    easy_apply: undefined,
+    job_url: 'https://www.naukri.com/job-listings-software-development-engineer-accenture-solutions-pvt-ltd-hyderabad-1-to-4-years-080626924698',
+    job_key: '080626924698',
+    freshness_bucket: '24H',
+    score: 0,
+    match_percentage: 0,
+    is_remote: false
+  },
+  {
+    source: 'naukri',
+    title: 'Software Development Engineer',
+    company: 'Accenture',
+    location: 'Hyderabad',
+    salary: null,
+    easy_apply: undefined,
+    job_url: 'https://www.naukri.com/job-listings-software-development-engineer-accenture-solutions-pvt-ltd-hyderabad-1-to-4-years-150626930052',
+    job_key: '150626930052',
+    freshness_bucket: '24H',
+    score: 0,
+    match_percentage: 0,
+    is_remote: false
+  },
+  {
+    source: 'naukri',
+    title: 'Android Devleoper',
+    company: 'iPrism Technologies',
+    location: 'Hyderabad',
+    salary: null,
+    easy_apply: undefined,
+    job_url: 'https://www.naukri.com/job-listings-android-devleoper-iprism-technologies-hyderabad-0-to-5-years-120619500080',
+    job_key: '120619500080',
+    freshness_bucket: '24H',
+    score: 0,
+    match_percentage: 0,
+    is_remote: false
+  },
+  {
+    source: 'naukri',
+    title: 'Hiring Full Stack DOT NET Developer - BDO RISE Bangalore / Hyderabad',
+    company: 'BDO Rise',
+    location: 'Hybrid - Hyderabad, Bengaluru',
+    salary: null,
+    easy_apply: undefined,
+    job_url: 'https://www.naukri.com/job-listings-hiring-full-stack-dot-net-developer-bdo-rise-bangalore-hyderabad-bdo-rise-pvt-ltd-hyderabad-bengaluru-1-to-4-years-180626023379',
+    job_key: '180626023379',
+    freshness_bucket: '24H',
+    score: 0,
+    match_percentage: 0,
+    is_remote: false
+  },
+  {
+    source: 'naukri',
+    title: 'Software Development Engineer',
+    company: 'Accenture',
+    location: 'Hyderabad',
+    salary: null,
+    easy_apply: undefined,
+    job_url: 'https://www.naukri.com/job-listings-software-development-engineer-accenture-solutions-pvt-ltd-hyderabad-1-to-4-years-250526925858',
+    job_key: '250526925858',
+    freshness_bucket: '24H',
+    score: 0,
+    match_percentage: 0,
+    is_remote: false
+  },
+  {
+    source: 'naukri',
+    title: 'Software Development Engineer Trainee (Full Stack)',
+    company: 'Zenwork Digital',
+    location: 'Hyderabad',
+    salary: null,
+    easy_apply: undefined,
+    job_url: 'https://www.naukri.com/job-listings-software-development-engineer-trainee-full-stack-zenwork-digital-hyderabad-0-to-2-years-290526007520',
+    job_key: '290526007520',
+    freshness_bucket: '24H',
+    score: 0,
+    match_percentage: 0,
+    is_remote: false
+  },
+  {
+    source: 'naukri',
+    title: 'Software Developer',
+    company: 'Leap Robots',
+    location: 'Hyderabad',
+    salary: null,
+    easy_apply: undefined,
+    job_url: 'https://www.naukri.com/job-listings-software-developer-leap-robots-hyderabad-0-to-1-years-230526007755',
+    job_key: '230526007755',
+    freshness_bucket: '24H',
+    score: 0,
+    match_percentage: 0,
+    is_remote: false
+  },
+  {
+    source: 'naukri',
+    title: 'Software Engineer',
+    company: 'Soc Software',
+    location: 'Hyderabad',
+    salary: null,
+    easy_apply: undefined,
+    job_url: 'https://www.naukri.com/job-listings-software-engineer-soc-software-hyderabad-1-to-3-years-260526027418',
+    job_key: '260526027418',
+    freshness_bucket: '24H',
+    score: 0,
+    match_percentage: 0,
+    is_remote: false
+  },
+  {
+    source: 'naukri',
+    title: 'MERN Stack Developer (Intern)',
+    company: 'Adengage',
+    location: 'Hyderabad, Mumbai, Mumbai, Hyderabad',
+    salary: null,
+    easy_apply: undefined,
+    job_url: 'https://www.naukri.com/job-listings-mern-stack-developer-intern-adengage-mumbai-hyderabad-mumbai-hyderabad-0-to-1-years-250526926825',
+    job_key: '250526926825',
+    freshness_bucket: '24H',
+    score: 85,
+    match_percentage: 85,
+    is_remote: false
+  },
+  {
+    source: 'naukri',
+    title: 'Java Script Developer',
+    company: 'Data Eminence',
+    location: 'Hyderabad, Pune, Bengaluru',
+    salary: null,
+    easy_apply: undefined,
+    job_url: 'https://www.naukri.com/job-listings-java-script-developer-data-eminence-hyderabad-pune-bengaluru-0-to-2-years-220526030068',
+    job_key: '220526030068',
+    freshness_bucket: '24H',
+    score: 0,
+    match_percentage: 0,
+    is_remote: false
+  },
+  {
+    source: 'naukri',
+    title: 'Python Developer',
+    company: 'Arshil Llc',
+    location: 'Hyderabad',
+    salary: null,
+    easy_apply: undefined,
+    job_url: 'https://www.naukri.com/job-listings-python-developer-arshil-hyderabad-1-to-5-years-250526929581',
+    job_key: '250526929581',
+    freshness_bucket: '24H',
+    score: 0,
+    match_percentage: 0,
+    is_remote: false
+  }
+]
+Jobs stored successfully
+PS E:\attention-needed\collector> 

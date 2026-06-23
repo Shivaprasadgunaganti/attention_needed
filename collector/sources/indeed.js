@@ -72,13 +72,21 @@ await page.addInitScript(() => {
 
       const url = link ? `https://in.indeed.com${link}` : "";
 
-      return {
-        title,
-        company,
-        location,
-        easyApply,
-        url,
-      };
+      // return {
+      //   title,
+      //   company,
+      //   location,
+      //   easyApply,
+      //   url,
+      // };
+return {
+  source: "indeed",
+  title,
+  company,
+  location,
+  easyApply,
+  url,
+};
     });
   });
 
