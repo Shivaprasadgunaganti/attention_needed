@@ -131,6 +131,12 @@ async function run() {
     ...naukriJobs,
   ];
 
+  if (jobs.length === 0) {
+  throw new Error(
+    "Collector returned zero jobs"
+  );
+}
+
   console.log(
     "Indeed Jobs:",
     indeedJobs.length
@@ -213,10 +219,7 @@ async function run() {
       title.includes("principal") ||
       title.includes("architect")
     ) {
-      // score = Math.max(
-      //   score - 30,
-      //   0
-      // );
+     
       score = Math.max(score - 50, 0);
     }
 
@@ -280,4 +283,8 @@ async function run() {
   );
 }
 
-run().catch(console.error);
+// run().catch(console.error);
+run().catch((err) => {
+  console.error(err);
+  process.exit(1);
+});
